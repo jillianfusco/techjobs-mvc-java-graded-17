@@ -32,7 +32,7 @@ public class ListController {
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
         tableChoices.put("coreCompetency", JobData.getAllCoreCompetency());
-        tableChoices.put("all", "View All");
+        tableChoices.put("all", "View All"); //Todo # 2
     }
 
     @GetMapping(value = "")
